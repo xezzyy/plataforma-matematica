@@ -1,7 +1,11 @@
 export const metadata = {
   title: "Matemática A — Plataforma de Estudo",
   description: "Prepara o Exame 635 de Matemática A, do zero, ao teu ritmo.",
-  viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {
